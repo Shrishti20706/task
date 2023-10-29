@@ -1,0 +1,112 @@
+.page-layout {
+    min-height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24.65rem;
+    padding-top: 4.65rem;
+    background-color:#0e0d0d;
+    color: #fff;
+    
+}
+.default-container-earn {
+    max-width: 126.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+}
+.section-title-block {
+    display: flex;
+    margin-bottom: 2.325rem;
+    max-width: 58.4rem;
+    width: 100%;
+}
+.section-title-icon {
+    display: flex;
+    align-items: center;
+}
+.section-title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Page-title {
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+.Page-description {
+    color: #b7b7bd;
+    line-height: 2.15rem;
+    font-size: 1.5rem;
+}
+.StakeV2-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+}
+.App-card {
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+}
+.App-card-title {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.App-card-divider {
+    height: 1px;
+    background: #4d4d4e;
+    margin: 1.05rem -1.5rem;
+}
+.App-card-content {
+    display: grid;
+    grid-row-gap: 0.8rem;
+}
+.App-card-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 1.5rem;
+    padding: unset;
+}
+.label, .label a {
+    color: hsla(0,0%,100%,.7);
+}
+.Tooltip {
+    position: relative;
+}
+.App-card-options {
+    padding: unset;
+    margin: -0.62rem;
+}
+a.App-button-option, button.App-button-option {
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 36px;
+    display: inline-flex!important;
+    align-items: center;
+    border: none;
+    background: #3eb489;
+}
+.Page-description>a{
+    color: #b7b7bd;
+    
+}

@@ -1,0 +1,372 @@
+/* Navbar Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: grey;
+    padding: 10px 20px;
+    overflow-x: hidden;
+}
+
+.company-inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-inf img {
+    width: 50px;
+}
+
+.company-inf p {
+    margin: 0 8px;
+    color: #e3d9d9;
+    font-size: 20px;
+}
+
+.nav-links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav-links a:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.trade {
+    margin-right: 20px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 14px 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    min-width: 180px;
+    z-index: 1;
+    right: 0;
+}
+
+.dropcontent a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropcontent {
+    display: block;
+}
+
+.dropcontent a:hover {
+    background-color:rgb(21, 21, 51);
+}
+
+.trade {
+    background: #3eb489;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff !important;
+    margin: 10px;
+    padding: 15px;
+    height: 30px;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    display: inline-flex !important;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.connect {
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 200;
+    letter-spacing: 0;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/**part 2*/
+.part2{
+
+    background-color: #111010;
+    color: #fff;
+    padding-top: 100px;
+    padding-left: 180px;
+}
+.part21>h1{
+    font-size: 50px;
+}
+
+.part21>p{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.launch{
+    background-color: #3eb489; /* Set the background color to #3eb489 */
+    color: #fff; /* Set text color to white */
+    padding: 10px 10px; /* Adjust padding as needed */
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+/**part22*/
+.default-container {
+    max-width: 126.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+    display: flex;
+}
+.Home-latest-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 6.2rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #0e0d0d;
+    color: #fff;
+}
+
+.Home-latest-info-block {
+    box-shadow: 0 0.5rem 2.2rem rgba(0,0,0,.12156862745098039);
+    box-shadow: 0 1.2rem 1.7rem rgba(0,0,0,.1411764705882353);
+    box-shadow: 0 0.7rem 0.8rem rgba(0,0,0,.2);
+    border: 1px solid hsla(0,0%,100%,.0784313725490196);
+    border-radius: 4px;
+    max-width: 38rem;
+    display: flex;
+    align-items: center;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    margin: 1.6rem 0;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    padding-left: 100px;
+    padding-right:100px ;
+    background-color: #0e0d0d;
+}
+
+.fa{
+    color: rgb(40, 121, 207); /* Change the color to white */
+    font-size: 2rem; /* Adjust the font size as needed */
+    padding: 10px;
+    
+}
+
+
+/**3rd part
+*/
+.Home-benefits-section {
+    background-color: #0e0d0d;
+    border-top: 1px solid #4d4d4e;
+    color: #fff;
+   
+    
+}
+.Home-benefit {
+    padding: 2rem;
+    padding: 60px 0px;
+    justify-content: center;
+
+}
+.Home-benefit-icon {
+    display: flex;
+    align-items: center;
+    padding: 0 0 1.5rem;
+    font-size: 1.85rem;
+}
+
+.Home-benefit-description {
+    font-size: 1rem;
+    line-height: 2.3rem;
+    max-width: 29rem;
+    color: #cecece;
+    letter-spacing: 0;
+    padding: 50px;
+}
+
+/*token card**/
+.Home-token-card-section {
+    
+    padding-top: 7.75rem;
+    padding-bottom: 7.75rem;
+    background-color: #0e0d0d;
+    margin-bottom: -4.65rem;
+    color: #fff;
+    display: grid;
+    grid-template-rows: auto;
+    padding: 30px;
+}
+
+.Home-token-card-info__title{
+padding: 60px;
+}
+
+.Home-token-card-options {
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+
+.Home-token-card-option {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #b4b4ba;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+.Home-token-card-option-icon img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Add other CSS styles as needed for your design */
+
+/* Style the Buy button */
+.Home-token-card-option-action .buy a {
+    background-color: #3eb489; /* Set the background color to #3eb489 */
+    color: #fff; /* Set text color to white */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+/* Style the Read more button */
+.Home-token-card-option-action .read-more {
+    color: #fff; /* Set text color to white */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    margin-left: 10px; /* Add some space between the buttons */
+}
+
+/* Adjust button alignment */
+.Home-token-card-option-action .buy,
+.Home-token-card-option-action .read-more {
+    display: inline-block; /* Make them inline */
+}
+
+/* Hover effect for both buttons */
+.Home-token-card-option-action .buy a:hover,
+.Home-token-card-option-action .read-more:hover {
+    background-color: #2c3531; /* Change color on hover */
+}
+
+
+/**icon*/
+.fa{
+    color: rgb(40, 121, 207); /* Change the color to white */
+    font-size: 2rem; /* Adjust the font size as needed */
+    padding: 10px;
+    
+}
+
+
+/*footer*/
+footer {
+    background-color:#0e0d0d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-icons {
+    font-size: 30px; /* Adjust the size as needed */
+    padding: 30px;
+}
+
+.footer-icons a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px; /* Adjust the spacing between icons */
+}
+
+.footer-icons a:hover {
+    color: #fff; /* Change the color on hover */
+}
+
+.footer-links {
+    margin-top: 10px; /* Add space between icons and links */
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px; /* Adjust the spacing between links */
+}
+
+.footer-links a:hover {
+    color: #3eb489; /* Change the color on hover */
+}
+
+.company-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-info img {
+    width: 100px;
+}
+
+.company-info p {
+    margin: 0 10px;
+    font-size: 40px;
+}

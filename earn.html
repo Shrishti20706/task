@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="earn.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <title>earn</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="company-inf">
+            <img src="New Logo.png" />
+            <p class="name">Romi finance</p>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">NFT</a>
+            <a href="earn.html">Earn</a>
+            <a href="#">Buy</a>
+            <a href="#">Referrals</a>
+            <a href="#">Ecosystem</a>
+            <a href="#">About</a>
+        </div>
+
+        <div class="nav-right">
+            <div class="trade">Trade</div>
+            <button class="connect"><i style='font-size:18px' class='fas'>&#xf555;</i> Connect Wallet</button>
+
+            <div class="dropdown">
+                <button class="dropbtn"><span style="font-size: 24px;">&#8942;</span></button>
+                <div class="dropcontent">
+                    <p style="padding: 5px; color: #8f9296;">Networks</p>
+                    <a href="#"><i class='fab'>&#xf42e;</i> Ethereum</a>
+                    <hr style="height: 1px; background-color: #444343; border: none; margin: 10px 0;">
+                    <a href="#"><i class='fa'>&#xf013;</i> Settings</a>
+                    <a href="#"><i class='fa'>&#xf0ac;</i> Language</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="height: 0.5px; background-color: #302f2f; border: none; margin: 0px 0;">
+
+
+
+    <div class=" default-container-earn page-layout">
+        <div class="StakeModal"></div>
+        <div class="StakeModal"></div>
+        <div class="StakeModal"></div>
+        <div class="StakeModal"></div>
+        <div class="StakeModal"></div>
+        <div class="StakeModal"></div>
+        <div class="section-title-block">
+            <div class="section-title-icon"></div>
+            <div class="section-title-content">
+                <div class="Page-title">Earn</div>
+                <div class="Page-description">Stake $ROMI and $ZLP to earn rewards.</div>
+            </div>
+        </div>
+        <div class="StakeV2-content">
+            <div class="StakeV2-cards">
+                <div class="App-card StakeV2-gmx-card">
+                    <div class="App-card-title">$ROMI</div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-content">
+                        <div class="App-card-row">
+                            <div class="label">Price</div>
+                            <div><span class="Tooltip nowrap"><span class="Tooltip-handle">$0.00</span></span></div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Wallet</div>
+                            <div>... $ROMI ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Staked</div>
+                            <div>... $ROMI ($...)</div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-row">
+                            <div class="label">APR</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">...%</span></span></div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Rewards</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">$...</span></span></div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Multiplier Points APR</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">100.00%</span></span></div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Boost Percentage</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">...%</span></span></div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-row">
+                            <div class="label">Total Staked</div>
+                            <div>0 $ROMI ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Total Supply</div>...
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-options"><a class="App-button-option App-card-option" href="#/buy_ROMI">Buy
+                                $ROMI</a></div>
+                    </div>
+                </div>
+                <div class="App-card primary StakeV2-total-rewards-card">
+                    <div class="App-card-title">Total Rewards</div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-content">
+                        <div class="App-card-row">
+                            <div class="label">ETH (WETH)</div>
+                            <div>... ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">$ROMI</div>
+                            <div>... ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Escrowed $ROMI</div>
+                            <div>... ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Multiplier Points</div>
+                            <div>...</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Staked Multiplier Points</div>
+                            <div>...</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Total</div>
+                            <div>$...</div>
+                        </div>
+                        <br><br><br><br><br><br><br><br>
+                        <div class="App-card-bottom">
+                            <div class="App-card-divider"></div>
+                            <div class="App-card-options"><button class="App-button-option App-card-option"
+                                    fdprocessedid="bakzc9" style="margin: 10px;">Connect Wallet</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="App-card">
+                    <div class="App-card-title">$ZLP (Ethereum)</div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-content">
+                        <div class="App-card-row">
+                            <div class="label">Price</div>
+                            <div>$...</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Wallet</div>
+                            <div>... $ZLP ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Staked</div>
+                            <div>... $ZLP ($...)</div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-row">
+                            <div class="label">APR</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">...%</span></span></div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Rewards</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">$...</span></span></div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-row">
+                            <div class="label">Total Staked</div>
+                            <div>... $ZLP ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Total Supply</div>
+                            <div>... $ZLP ($...)</div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-options"><a class="App-button-option App-card-option" href="#/buy_mlp">Buy
+                                $ZLP</a><a class="App-button-option App-card-option" href="#/buy_mlp#redeem" style="margin-left: 10px;">Sell
+                                $ZLP</a></div>
+                    </div>
+                </div>
+                <div class="App-card">
+                    <div class="App-card-title">Escrowed $ROMI</div>
+                    <div class="App-card-divider"></div>
+                    <div class="App-card-content">
+                        <div class="App-card-row">
+                            <div class="label">Price</div>
+                            <div>$0.00</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Wallet</div>
+                            <div>... esROMI ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Staked</div>
+                            <div>... esROMI ($...)</div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-row">
+                            <div class="label">APR</div>
+                            <div>
+                                <div><span class="Tooltip"><span class="Tooltip-handle">...%</span></span></div>
+                            </div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Multiplier Points APR</div>
+                            <div><span class="Tooltip"><span class="Tooltip-handle">100.00%</span></span></div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-row">
+                            <div class="label">Total Staked</div>
+                            <div>... esROMI ($...)</div>
+                        </div>
+                        <div class="App-card-row">
+                            <div class="label">Total Supply</div>
+                            <div>... esROMI ($...)</div>
+                        </div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-options"><button class="App-button-option App-card-option"
+                                fdprocessedid="77q4ti">Connect Wallet</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <div class="Tab-title-section">
+                <div class="Page-title">Vest</div>
+                <div class="Page-description">Convert esROMI tokens to $ROMI tokens.<br>Please read the <a
+                        href="https://docs.ROMI.financehow-it-works/rewards" target="_blank"
+                        rel="noopener noreferrer">vesting details</a> before using the vaults.</div>
+            </div>
+            <div>
+                <div class="StakeV2-cards">
+                    <div class="App-card StakeV2-gmx-card">
+                        <div class="App-card-title">$ROMI Vault</div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-content">
+                            <div class="App-card-row">
+                                <div class="label">Staked Tokens</div>
+                                <div><span class="Tooltip"><span class="Tooltip-handle">...</span></span></div>
+                            </div>
+                            <div class="App-card-row">
+                                <div class="label">Reserved for Vesting</div>
+                                <div>0.00 / ...</div>
+                            </div>
+                            <div class="App-card-row">
+                                <div class="label">Vesting Status</div>
+                                <div><span class="Tooltip"><span class="Tooltip-handle">0.0000 / 0.0000</span></span>
+                                </div>
+                            </div>
+                            <div class="App-card-row">
+                                <div class="label">Claimable</div>
+                                <div><span class="Tooltip"><span class="Tooltip-handle">0.0000 $ROMI</span></span></div>
+                            </div>
+                            <div class="App-card-divider"></div>
+                            <div class="App-card-options"><button class="App-button-option App-card-option"
+                                    fdprocessedid="f6kjgl">Connect Wallet</button></div>
+                        </div>
+                    </div>
+                    <div class="App-card StakeV2-gmx-card">
+                        <div class="App-card-title">$ZLP Vault</div>
+                        <div class="App-card-divider"></div>
+                        <div class="App-card-content">
+                            <div class="App-card-row">
+                                <div class="label">Staked Tokens</div>
+                                <div>... $ZLP</div>
+                            </div>
+                            <div class="App-card-row">
+                                <div class="label">Reserved for Vesting</div>
+                                <div>0.00 / ...</div>
+                            </div>
+                            <div class="App-card-row">
+                                <div class="label">Vesting Status</div>
+                                <div><span class="Tooltip"><span class="Tooltip-handle">0.0000 / 0.0000</span></span>
+                                </div>
+                            </div>
+                            <div class="App-card-row">
+                                <div class="label">Claimable</div>
+                                <div><span class="Tooltip"><span class="Tooltip-handle">0.0000 $ROMI</span></span></div>
+                            </div>
+                            <div class="App-card-divider"></div>
+                            <div class="App-card-options"><button class="App-button-option App-card-option"
+                                    fdprocessedid="m44g5c">Connect Wallet</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+    <footer>
+        <hr style="height: 1px; background-color: #444343; border: none; margin: 10px 0;">
+
+        <div class="company-info">
+
+            <img src="New Logo.png" alt="Company Logo">
+
+            <p>Romi Finance</p>
+        </div>
+        <div class="footer-icons">
+            <a href="https://twitter.com/your_twitter_link" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/your_github_link" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://t.me/your_telegram_link" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://discord.gg/your_discord_link" target="_blank"><i class="fab fa-discord"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="/terms">Terms and Conditions</a>
+            <a href="/referral-terms">Referral Terms</a>
+            <a href="/media-kit">Media Kit</a>
+        </div>
+
+    </footer>
+</body>
+
+</html>

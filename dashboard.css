@@ -1,0 +1,233 @@
+.page-layout {
+    min-height: calc(100vh - 62px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24.65rem;
+    padding-top: 4.65rem;
+    background-color:#0e0d0d;
+    color: #fff;
+}
+.default-container {
+    max-width: 126.4rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+}
+.DashboardV2 {
+    padding-top: 4.65rem;
+}
+.section-title-block {
+    display: flex;
+    margin-bottom: 2.325rem;
+    max-width: 58.4rem;
+    width: 100%;
+}
+.section-title-icon {
+    display: flex;
+    align-items: center;
+}
+.section-title-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Page-title {
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+
+.Page-description {
+    color: #b7b7bd;
+    line-height: 2.15rem;
+    font-size: 1.5rem;
+}
+.DashboardV2-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin-top: 0.8rem;
+}
+.App-card {
+    padding: 1.5rem 1.5rem 1.86rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1.5rem;
+}
+.App-card-title {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.App-card-divider {
+    height: 1px;
+    background: #4d4d4e;
+    margin: 1.05rem -1.5rem;
+}
+.App-card-content {
+    display: grid;
+    grid-row-gap: 0.8rem;
+}
+.App-card-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 1.5rem;
+    padding: unset;
+}
+.label, .label a {
+    color: hsla(0,0%,100%,.7);
+}
+.Tooltip {
+    position: relative;
+}
+
+.Tooltip-handle {
+    cursor: help;
+    position: relative;
+    display: inline-flex;
+    text-decoration: underline;
+    -webkit-text-decoration-style: dashed;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    -webkit-text-decoration-color: hsla(0,0%,100%,.6);
+    text-decoration-color: hsla(0,0%,100%,.6);
+}
+.Tab-title-section {
+    padding: 3.1rem 0 0;
+    margin-bottom: 2.4rem;
+}
+
+.DashboardV2-token-cards {
+    margin-top: 0.8rem;
+}
+.stats-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.stats-block {
+    width: 100%;
+}
+.stats-piechart {
+    margin: -1rem -1rem -1rem 1.5rem;
+}
+element.style {
+    position: relative;
+    cursor: default;
+    width: 210px;
+    height: 210px;
+}
+.App-card-title-mark {
+    display: flex;
+}
+.App-card-title-mark-icon {
+    position: relative;
+    margin-right: 0.8rem;
+    display: flex;
+}
+.App-card-title-mark .App-card-title-mark-title {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    letter-spacing: 0;
+    color: #fff;
+}
+.App-card-title-mark .App-card-title-mark-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    letter-spacing: 0;
+    color: #a9a9b0;
+}
+.dropdown-arrow {
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    opacity: .8;
+}
+.token-grid {
+    display: none;
+}
+.mobile-token-card {
+    display: flex;
+    align-items: center;
+}
+.token-table .token-symbol-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4.65rem;
+}
+.App-card-title-info {
+    display: flex;
+}
+.App-card-title-info-icon {
+    display: flex;
+    margin-right: 0.8rem;
+}
+.App-card-info-title {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+}
+.App-card-info-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #a9a9b0;
+}
+.dropdown-arrow {
+    margin-left: 0.8rem;
+    cursor: pointer;
+    color: #fff;
+    opacity: .8;
+}
+.center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table, tr {
+    margin: 0;
+    padding: 0;
+}
+.token-table td:first-child, .token-table th:first-child {
+    padding-left: 1.5rem;
+    width: 26.35rem;
+}
+.token-table th {
+    font-weight: 400;
+    letter-spacing: .25px;
+    color: #a9a9b0;
+    text-transform: uppercase;
+}
+.token-table td, .token-table th {
+    padding: 1.1625rem;
+}
+.token-table td:last-child, .token-table th:last-child {
+    padding-right: 1.5rem;
+    text-align: right;
+    width: 17rem;
+}
+.token-table td:nth-child(5), .token-table th:nth-child(5) {
+    width: 13rem;
+}
+.token-table th {
+    font-weight: 400;
+    letter-spacing: .25px;
+    color: #a9a9b0;
+    text-transform: uppercase;
+}
+.token-table td, .token-table th {
+    padding: 1.1625rem;
+}
